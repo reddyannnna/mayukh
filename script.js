@@ -86,6 +86,31 @@ document
         }, 1500);
 
     });
+const threatLevels = [
+    "Harmless too good to be true",
+    "Suspicious",
+    "questionable but it is happening",
+    "awakning Detected",
+    "rgb monster",
+    "metal bottle monster"
+];
+
+document
+    .getElementById("threatBtn")
+    .addEventListener("click", function () {
+
+        const randomThreat =
+            threatLevels[
+                Math.floor(Math.random() * threatLevels.length)
+            ];
+
+        document
+            .getElementById("threatText")
+            .textContent =
+            "Currently: " + randomThreat;
+
+    });
+
 
 document.getElementById("warningBtn").addEventListener("click", function () {
     document.getElementById("warning").textContent = randomItem(warnings);
