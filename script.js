@@ -20,7 +20,8 @@ const excuses = [
     "I wasn't interrupting. I was upgrading the conversation.",
     "The story needed context, and then the context needed context.",
     "I could have said it in one sentence, but that removes the cinematic experience.",
-    "Silence was an option. I rejected it."
+    "Silence was an option. I rejected it.",
+    "I am the best obv iam busy"
 ];
 
 // MAYUKH LOGIC
