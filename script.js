@@ -67,6 +67,26 @@ document.getElementById("logicBtn").addEventListener("click", function () {
         "LOGIC SIMULATION: " + randomItem(logic);
 });
 
+
+document
+    .getElementById("copyBtn")
+    .addEventListener("click", function () {
+
+        const text =
+            document.getElementById("output").textContent;
+
+        navigator.clipboard.writeText(text);
+
+        document.getElementById("copyBtn").textContent =
+            "COPIED!";
+
+        setTimeout(function () {
+            document.getElementById("copyBtn").textContent =
+                "COPY RESULT";
+        }, 1500);
+
+    });
+
 document.getElementById("warningBtn").addEventListener("click", function () {
     document.getElementById("warning").textContent = randomItem(warnings);
 });
