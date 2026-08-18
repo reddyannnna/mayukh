@@ -743,3 +743,15 @@ h1 {
 .stamp:hover {
     transform: rotate(7deg) scale(1.15);
 }
+
+
+.threat-box {
+    margin-top: 25px;
+    padding: 20px;
+    border: 3px solid #7a1f1f;
+    background: #c7b996;
+}
+
+.threat-box h3 {
+    color: #7a1f1f;
+}
