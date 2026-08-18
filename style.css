@@ -719,3 +719,12 @@ h1 {
     }
 
 }
+
+
+.stamp {
+    transition: transform 0.3s ease;
+}
+
+.stamp:hover {
+    transform: rotate(7deg) scale(1.15);
+}
